@@ -55,7 +55,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import draggable from 'vuedraggable'
-import TreeNode from '@/components/TreeNode.vue'
+import TreeNode from './components/TreeNode.vue'
 import {
   flatToTree,
   treeToFlat,
